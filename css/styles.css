@@ -1,0 +1,164 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+p {
+  color: grey;
+}
+
+/* titleSection */
+
+#title {
+  background-color: #ff4c68;
+  padding: 3% 15% 7%;
+}
+.header {
+  color: white;
+  line-height: 2;
+  font-weight: 900;
+  text-align: left;
+}
+
+.iphoneImage {
+  transform: rotate(30deg);
+  width: 17%;
+  position: absolute;
+  right: 20%;
+}
+.download-btn {
+  margin: 15px 15px 0px 0px;
+}
+
+/** Bootsstrap adjust **/
+
+/* navagation Bar */
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+}
+.nav-item {
+  margin: 18px;
+}
+
+.row {
+  margin-top: 2.5rem;
+}
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* **************feautres Section******************* */
+#features {
+  background-color: white;
+  position: relative;
+  z-index: 1;
+  margin-top: 0px;
+}
+.featuresSymbols {
+  padding: 5%;
+}
+.row {
+  margin-top: 0px;
+}
+
+.symbols {
+  display: block;
+  color: #ef8172;
+  margin-bottom: 15px;
+}
+
+.symbols:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials section */
+
+#testimonials {
+  background-color: #ef8172;
+
+  color: white;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+/* pressSection */
+
+#press {
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 2rem;
+}
+
+.pressPhotos {
+  width: 13%;
+  margin: 20px 20px 50px 20px;
+}
+
+.carousel-item {
+  padding: 5% 18%;
+}
+
+/* pricingsection */
+#pricing {
+  padding: 5% 5%;
+}
+.pricing-coloum {
+  padding: 2%;
+}
+
+@media (max-width: 1028px) {
+  .iphoneImage {
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+    margin-top: 20px;
+  }
+  #title {
+    text-align: center;
+  }
+}
+/* call to action section */
+
+#cta {
+  background-color: #ff4c68;
+  color: white;
+  padding: 10% 15%;
+}
+.ctaHeading {
+  font-size: 3rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+/* footerSection */
+#footer {
+  margin-top: 20px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.fa-brands {
+  margin-right: 15px;
+  margin-bottom: 30px;
+}
